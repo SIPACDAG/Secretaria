@@ -11,7 +11,7 @@ namespace secretaria
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            textUsuario.Text = Session["Usuario"].ToString();
         }
     }
 }

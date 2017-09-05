@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    class mBitacora
+     public class mBitacora
     {
         public int id_bitacora { get; set; }
         public string acuerdo { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    class mComiteEjecutivo
+    public class mComiteEjecutivo
     {
         public int idComite { get; set; }
         public int idDirigente { get; set; }
