@@ -17,11 +17,15 @@ namespace secretaria.FADN
         {
             int nom = Convert.ToInt16(Request.QueryString["numero"]);
             controladorFand = new cFADN();
+            //Datos Federacion.
             modeloFand = controladorFand.Obtener_Fadn(nom);
             lblFederacion.Text = modeloFand.Nombre;
             txtDireccion.Text = modeloFand.Direccion;
             txtTelefono.Text = modeloFand.Telefono;
             txtCorreo.Text = modeloFand.correo_electronico;
+            //Datos junta
+            gvComite.DataSource = controladorFand.Obtener_Junta(nom);
+            gvComite.DataBind();
         }
     }
 }

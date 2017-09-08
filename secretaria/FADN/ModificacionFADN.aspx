@@ -48,7 +48,9 @@
             </div>
 
         </div>
-        <asp:GridView ID="gvComite" runat="server" AllowPaging="True" DataKeyNames="numero" CssClass="table table-hover table-responsive">
+        
+    </div>
+    <asp:GridView ID="gvComite" runat="server" AllowPaging="True" DataKeyNames="dpi" CssClass="table table-hover table-responsive" style="margin-right: 0px">
             <Columns>
 
                 <asp:CommandField ButtonType="Button" HeaderText="Seleccionar" ControlStyle-CssClass="btn btn-primary" ShowSelectButton="True">
@@ -59,5 +61,4 @@
 
             </Columns>
         </asp:GridView>
-    </div>
 </asp:Content>
