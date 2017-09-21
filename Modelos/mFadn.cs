@@ -16,6 +16,14 @@ namespace Modelos
         public string correo_electronico { get; set; }
         public byte[] logo { get; set; }
 
-
+        public void mFand(int sfand,string snombre,string sdireccio,string stelefono,string scorreo,byte[] logo)
+        {
+            this.id_fand = sfand;
+            this.Nombre = snombre;
+            this.Direccion = sdireccio;
+            this.Telefono = stelefono;
+            this.correo_electronico = scorreo;
+            this.logo = logo;
+        }
     }
 }
