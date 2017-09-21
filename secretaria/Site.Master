@@ -57,7 +57,7 @@
 
                         <li><a runat="server" href="~/FADN/ListadoFADN">FADN</a></li>
                         <li><a runat="server" href="~/Contact">Dirigentes</a></li>
-                        <li><a runat="server" href="~/Contact">Comite</a></li>
+                        <li><a runat="server" href="~/Contact">Usuarios</a></li>
                     </ul>
                     <ul class=" navbar-nav  navbar-right">
                         <li class="nav-item">

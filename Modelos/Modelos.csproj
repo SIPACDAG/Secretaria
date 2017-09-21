@@ -47,6 +47,7 @@
     <Compile Include="mComiteEjecutivo.cs" />
     <Compile Include="mDiringente.cs" />
     <Compile Include="mFadn.cs" />
+    <Compile Include="mUsuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

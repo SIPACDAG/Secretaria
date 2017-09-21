@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Modelos;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,12 @@ namespace Controladores
             
 
             return false;
+        }
+
+
+        public void InsertUsuario(mUsuario objUsuario)
+        {
+
         }
     }
 }
