@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cConexion.cs" />
+    <Compile Include="cDirigente.cs" />
     <Compile Include="cFADN.cs" />
     <Compile Include="cUsuario.cs" />
     <Compile Include="Program.cs" />

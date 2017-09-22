@@ -17,7 +17,7 @@
             <div class="form-group">
             </div>
             <div class="form-group">
-                <asp:Button ID="btnModificar" runat="server" CssClass="btn btn-info" Text="Modificar" OnClick="btnModificar_Click" />
+                
                 <label class="col-sm-2"><span style="font-size: medium">Nombre</span>: </label>
                 <div class="col-sm-4">
                     <asp:Label ID="lblFederacion" Text="Ajedrez" runat="server"></asp:Label>
