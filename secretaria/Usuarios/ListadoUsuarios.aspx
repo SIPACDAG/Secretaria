@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Listado Usuarios</h2>
     <asp:GridView ID="gvListado" runat="server" OnSelectedIndexChanged="gvListado_SelectedIndexChanged" AllowPaging="True" DataKeyNames="numero" CssClass="table table-hover table-responsive">
+        <AlternatingRowStyle BackColor="#F0F0F0" />
         <Columns>
             
             <asp:CommandField ButtonType="Button" HeaderText="Seleccionar"  ControlStyle-CssClass="btn btn-primary" ShowSelectButton="True">
@@ -11,5 +12,6 @@
            
 
         </Columns>
+         <HeaderStyle BackColor="#0099FF" />
     </asp:GridView>
 </asp:Content>

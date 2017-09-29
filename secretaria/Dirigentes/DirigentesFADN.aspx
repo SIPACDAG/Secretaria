@@ -1,17 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DirigentesFADN.aspx.cs" Inherits="secretaria.Dirigentes.DirigentesFADN" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <link href="content/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
     <div class="form-horizontal">
         <h4>Seleccionar FADN</h4>
         <div class="row">
-            <div class="col-sm-4" style="padding:0px">
+            <div class="col-sm-4" style="padding: 0px">
                 <asp:DropDownList ID="ddl_fadn" runat="server" CssClass="form-control"></asp:DropDownList>
             </div>
-            <div class="col-sm-2" style="padding:0px">
+            <div class="col-sm-2" style="padding: 0px">
                 <asp:Button ID="btn_buscar" runat="server" Text="Mostrar" CssClass="btn btn-primary" OnClick="btn_buscar_Click" />
             </div>
         </div>
-        <div class="row" style="margin-top:10px">
+        <div class="row" style="margin-top: 10px">
             <div class="col-sm-6">
                 <asp:Panel ID="panel_junta" runat="server" CssClass="panel" Visible="false">
                     <div class="panel-body">
@@ -31,17 +32,19 @@
                                 <asp:Label ID="lbl_correo" runat="server" Text=""></asp:Label>
                             </div>
                         </div>
-                        <div class="row" style="margin-top:10px">
+                        <div class="row" style="margin-top: 10px">
                             <div class="col-xs-6">
                                 <asp:Label ID="Label5" runat="server" Text="Comité Ejecutivo" CssClass="h4"></asp:Label>
                             </div>
                         </div>
-                        <div class="row" style="margin-top:10px">
+                        <div class="row" style="margin-top: 10px">
                             <div class="col-sm-6">
                                 <asp:GridView ID="gv_fadn" runat="server" CssClass="table table-hover table-responsive" OnSelectedIndexChanged="gv_fadn_SelectedIndexChanged">
+                                    <HeaderStyle BackColor="#0099FF" />
+                                    <AlternatingRowStyle BackColor="#F0F0F0" />
                                     <Columns>
-                                        <asp:CommandField ButtonType="Button" HeaderText="Seleccionar"  ControlStyle-CssClass="btn btn-primary" ShowSelectButton="True">
-                                            <HeaderStyle BorderStyle="Inset"  HorizontalAlign="Center" VerticalAlign="Middle" />
+                                        <asp:CommandField ButtonType="Button" HeaderText="Seleccionar" ControlStyle-CssClass="btn btn-primary" ShowSelectButton="True">
+                                            <HeaderStyle BorderStyle="Inset" HorizontalAlign="Center" VerticalAlign="Middle" />
                                             <ItemStyle BorderStyle="Inset" HorizontalAlign="Center" VerticalAlign="Middle" />
                                         </asp:CommandField>
                                     </Columns>
@@ -146,7 +149,7 @@
                                     <asp:TextBox ID="tb_correo" runat="server" CssClass="form-control"></asp:TextBox>
                                 </div>
                             </div>
-                            <div class="row" style="margin-top:5px">
+                            <div class="row" style="margin-top: 5px">
                                 <div class="col-xs-6">
                                     <asp:Button ID="bt_agregar_nuevo" runat="server" Text="Agregar nuevo dirigente" CssClass="btn btn-primary" Width="100%" />
                                 </div>
