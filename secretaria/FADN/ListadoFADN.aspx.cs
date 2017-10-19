@@ -30,5 +30,6 @@ namespace secretaria.FADN
             ViewState["numero"] = gvListado.SelectedValue;
             Response.Redirect("ModificacionFADN.aspx?numero=" + Convert.ToString(ViewState["numero"]));
         }
+        
     }
 }

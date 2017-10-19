@@ -38,6 +38,9 @@ namespace secretaria.FADN
                 //Datos junta
                 gvComite.DataSource = controladorFand.Obtener_Junta(nom);
                 gvComite.DataBind();
+                //Datos Interino
+                gvInterino.DataSource = controladorFand.Obtener_Comite_Interino(nom);
+                gvInterino.DataBind();
             }
            
         }
@@ -85,7 +88,7 @@ namespace secretaria.FADN
             modeloFand.Nombre = lblFederacion.Text;
             try
             {
-                controladorFand.Actualizar_FADN(modeloFand);
+                //controladorFand.Actualizar_FADN(modeloFand);
                 lblResultado.Visible = true;
                 lblResultado.ForeColor = Color.LightGreen;
                 lblResultado.Text = "Datos Guardados Con Exito";

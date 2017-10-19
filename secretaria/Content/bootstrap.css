@@ -6814,3 +6814,12 @@ td.visible-print {
     display: none !important;
   }
 }
+#body3 {
+	margin: 0;
+	padding: 0;
+	background: #EFEFEF url(blu_by__kol.png) round fixed;
+    font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	color: #000000;
+}

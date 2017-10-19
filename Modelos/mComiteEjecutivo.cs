@@ -20,10 +20,12 @@ namespace Modelos
         public string acreditacion_cdag { get; set; }
         public string Fecha_acreditacion { get; set; }
         public int estado_comite { get; set; }
-        public string comite { get; set; }
+  
         public string Fecha_creacion { get; set; }
         public string Fecha_modificacion { get; set; }
         public string usuario_crea { get; set; }
         public string usuario_modifica { get; set; }
+        public string noNombrameinto { get; set; }
+        public string  fehcaNombrameinto { get; set; }
     }
 }

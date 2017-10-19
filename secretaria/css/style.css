@@ -36,16 +36,11 @@ p, ul, ol {
     color: #FFFFFF;
 }
 
-ul, ol {
-}
-
 a {
 	text-decoration: none;
 	color: #FFFFFF;
     }
 
-a:hover {
-}
 
 
 /* Header */
@@ -681,8 +676,6 @@ a:hover {
     font-style: italic;
 }
 
-#two-columns2 .image-style {
-}
 
 #two-columns2 .text-style {
 	padding-bottom: 10px;
@@ -952,6 +945,18 @@ table th[class*="col-"] {
 	margin: 0;
 	padding: 0;
 	background: #EFEFEF url(Fondos/FondoLogin.jpg) round fixed;
+    font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	color: #000000;
+}
+
+#body3 {
+	margin: 0;
+	padding: 0;
+	background: #EFEFEF url(Fondos/fondo.jpg) round;
+    background-repeat: no-repeat;
+    
     font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 200;

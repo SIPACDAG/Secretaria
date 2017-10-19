@@ -2,12 +2,12 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Listado FADN</h2>
-    <asp:GridView ID="gvListado" runat="server" OnSelectedIndexChanged="gvListado_SelectedIndexChanged" AllowPaging="True" DataKeyNames="numero" CssClass="table table-hover table-responsive" BorderColor="Black">
+    <asp:GridView ID="gvListado" runat="server"  OnSelectedIndexChanged="gvListado_SelectedIndexChanged" AllowPaging="True" DataKeyNames="numero" CssClass="table table-hover table-responsive" BorderColor="Black">
         <AlternatingRowStyle BackColor="#F0F0F0" />
         <Columns>
 
             <asp:CommandField ButtonType="Button" HeaderText="Seleccionar" ControlStyle-CssClass="btn btn-primary" ShowSelectButton="True">
-                <ControlStyle CssClass="btn btn-primary"></ControlStyle>
+                <ControlStyle CssClass="btn btn-primary "></ControlStyle>
 
                 <HeaderStyle BorderStyle="Inset" HorizontalAlign="Center" VerticalAlign="Middle" />
                 <ItemStyle BorderStyle="Inset" HorizontalAlign="Center" VerticalAlign="Middle" />
